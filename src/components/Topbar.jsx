@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Cardy from "./Cardy";
 import EditUser from "./EditUser";
 
-function TopBar({ todo, setTodo, completed, setCompleted }) {
+function Topbar({ todo, setTodo, completed, setCompleted }) {
   let [title, setTitle] = useState("");
   let [description, setDescription] = useState("");
   let [selectedTodo, setSelectedTodo] = useState(null);
@@ -128,4 +128,4 @@ function TopBar({ todo, setTodo, completed, setCompleted }) {
   );
 }
 
-export default TopBar;
+export default Topbar;
