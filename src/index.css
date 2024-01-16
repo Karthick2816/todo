@@ -1,0 +1,32 @@
+.HeaderColor {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+input {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 20vh;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.card {
+  background-color: rgb(105, 255, 105);
+  padding: 10px;
+  border: 2px solid black;
+  gap: 10px;
+  display: flex;
+  row-gap: 10px;
+}
+.content {
+  font-size: 20px;
+  text-decoration: underline;
+}
